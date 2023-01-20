@@ -1,0 +1,15 @@
+{
+    "dbInfo":
+      {
+          "host":"put your db endpoint here",
+          "username":"admin",
+          "password":"put your password here",
+          "port":"3306"
+      },
+    "table": {
+        "name": "transaction",
+        "query": "select * from payment.transaction"
+    },
+    "save_bucket": "data.mohamed.jamel.bigquery",
+    "key": "exports/"
+  }
